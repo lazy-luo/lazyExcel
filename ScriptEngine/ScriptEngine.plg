@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ScriptEngine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSP98F2.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SCRIPTENGINE_EXPORTS" /Fr"../Bin/Build/script_engine/Release/" /Fo"../Bin/Build/script_engine/Release/" /Fd"../Bin/Build/script_engine/Release/" /FD /c 
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\alanysis_tokens.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\interface.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\vm\LZYVM.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\MD5\md5c.c"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\press_computer.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\script_engine.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\script\script_rule.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\ScriptEngine.cpp"
+"\\vmware-host\Shared Folders\文稿\GitHub\lazyExcel\ScriptEngine\src\string_parse.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSP98F2.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSP98F3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /stack:0xa00000,0x100000 /dll /pdb:none /machine:I386 /out:"../Bin/script_engine.dll" /implib:"../Bin/Build/script_engine/Release/script_engine.lib" 
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\alanysis_tokens.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\interface.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\LZYVM.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\md5c.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\press_computer.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\script_engine.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\script_rule.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\ScriptEngine.obj"
+"\文稿\GitHub\lazyExcel\Bin\Build\script_engine\Release\string_parse.obj"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSP98F3.tmp"
+<h3>Output Window</h3>
+Compiling...
+alanysis_tokens.cpp
+interface.cpp
+LZYVM.cpp
+Generating Code...
+Compiling...
+md5c.c
+Generating Code...
+Compiling...
+press_computer.cpp
+script_engine.cpp
+script_rule.cpp
+ScriptEngine.cpp
+string_parse.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/script_engine/Release/script_engine.lib and object ../Bin/Build/script_engine/Release/script_engine.exp
+CVTRES : fatal error CVT1107: ../Bin/Build/script_engine/Release/script_engine.exp is corrupt
+../Bin/Build/script_engine/Release/script_engine.exp : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+script_engine.dll - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

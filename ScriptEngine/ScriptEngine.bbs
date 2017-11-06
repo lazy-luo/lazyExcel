@@ -1,0 +1,3 @@
+[Batch Build]
+ScriptEngine - Win32 Debug=1
+ScriptEngine - Win32 Release=1
