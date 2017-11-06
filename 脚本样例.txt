@@ -1,0 +1,85 @@
+////////////////////////////////////////////////////////////////////////////////////
+//@模块	：简单脚本解析器（测试脚本）
+//@作者	：罗智勇
+//@时间 ：2006-12-08
+//@说明 ：脚本语法类似于标准c语法，不支持指针操作，不支持?:操作。只支持两种变量类型
+//	  number-->数值型   string-->字符串型。支持自定义函数以及其他特征
+//	  支持动态回调接口，可以调用c/c++编写的函数，可以支持外部变量动态求值。
+//	  本引擎为嵌入式引擎，可以嵌入到任何应用中。
+////////////////////////////////////////////////////////////////////////////////////
+
+number num_var;
+number num_var_new;
+number tot;//tot值大于0时处理指标
+string str_var;
+number num_2;
+//给变量赋值
+num_2=1;
+//脚本引擎支持位运算 >>、<<、~、^、|、&等
+num_var=(1*+-(4>>!0),8*+-+-+45,-7/-(23/7*+-3-7*+-+-+(31/-91/-+17)*+-3)/+-131/+-+-71);
+num_var_new=24/166+67*0.197/13.1-5+43/17;
+num_var+=num_var_new;//支持+=、-=、*=、/=等操作符
+num_var_new=num_var;
+num_var_new++;//支持单目++、--操作，类似c语言
+
+number get_dib(number val){
+    if(val<2)
+       return 1;
+    if(val==2)
+      return 2;
+    return get_dib(val-2)+get_dib(val-1);
+}
+
+number get_number(string strv,number val){
+	if(strv<"2006-09-11")
+		return 10+val;
+	else
+		return get_number("2006-09-10",val+10);
+}
+tot=get_number("2006-09-27",1);
+str_var="lzy-g-字符串赋值";
+tot=(++num_var,++num_var_new),num_var;//支持逗号操作符, 规则同标准c语言
+if(str_var<"0987733"){
+	//字符串比较
+	str_var+="_notnotnot";//字符串相加
+}else if(1==2){
+	str_var=str_var+"_okokok";
+}else{
+	number	ii;
+	ii=3;
+	if(num_var_new>2)
+		str_var=str_var+"_other";
+	else{
+		str_var=str_var+"_other777";
+		{
+			string var_tmp;
+			if((--ii)>2)
+				var_tmp="\treturn";
+			else{
+				var_tmp="\t ii<2 --return";
+				if(num_var<tot)
+					ii+=num_var;
+				else
+					str_var+=var_tmp;
+			}
+			var_tmp="ppppp";
+		}
+	}
+}
+num_2=tot++-num_var+num_var_new*1.779;
+
+if(num_2>tot){
+	str_var="哈哈测试分支1";
+}else{
+	str_var="哈哈测试分支2";
+}
+for(num_2=1,num_var=0;num_2<=100000;){
+	num_var+=1;
+	while(num_2++<1000)
+		num_var+=3;
+
+//	if(num_var/171>37 && (num_var%37==0))
+//		 break;
+}
+
+return "num_var="+num_var+"-----pow(指标1,pow(cos(2+sin(175)),2))="+pow(指标1,pow(cos(2+sin(175)),2))+"------get_dib(20)="+get_dib(20);
