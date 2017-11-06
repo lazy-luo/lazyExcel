@@ -17,3 +17,6 @@ a simply software like MS-Excel.it can be running muiti-platform...
 	
 	e、本引擎为跨平台嵌入式引擎，可以嵌入到任何应用中
 	
+![表格样式1](https://github.com/lazy-luo/lazyExcel/readme_res/lazyExecl03.png)
+![表格样式2](https://github.com/lazy-luo/lazyExcel/readme_res/lazyExecl02.png)
+![表格样式3](https://github.com/lazy-luo/lazyExcel/readme_res/lazyExecl01.png)
