@@ -1,7 +1,7 @@
-# lazyExcel
+﻿# lazyExcel
 a simply software like MS-Excel.it can be running muiti-platform...
 
-1、2015年写的Excel，可跨平台，现在放出来
+1、2005年写的Excel，可跨平台，现在放出来
 
 2、可以替代微软的excel大部分功能，同时加入了一些新特性，可以非常方便的实现各种需要复杂报表
 
