@@ -1,0 +1,63 @@
+# Microsoft Developer Studio Generated Dependency File, included by LSheetLib.mak
+
+.\Src\LSheet.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lclipdc.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	"..\LGridLib\Interface\LGridInterface.h"\
+	"..\lgridlib\public\lgridapi.h"\
+	"..\LGridLib\Public\LGridPublic.h"\
+	"..\LGridLib\Src\LGrid.h"\
+	"..\LTableLib\Base\LCellItem.h"\
+	"..\LTableLib\Base\LColItem.h"\
+	"..\LTableLib\Base\LRowItem.h"\
+	"..\LTableLib\Interface\LInterface.h"\
+	"..\LTableLib\Public\LPublicDef.h"\
+	"..\LTableLib\Public\LTableApi.h"\
+	"..\LTableLib\Src\LTable.h"\
+	"..\osface\win32\gdi\ldrawer.h"\
+	"..\osface\win32\lplatform.h"\
+	".\Interface\LSheetInterface.h"\
+	".\public\lsheetapi.h"\
+	".\Public\LSheetPublic.h"\
+	".\Src\LSheet.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lclipdc.cpp"\
+	"..\lcomm\lclipdc.h"\
+	"..\lcomm\lfont.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.cpp"\
+	"..\LComm\LSerial.h"\
+	"..\LGridLib\Interface\LGridInterface.h"\
+	"..\lgridlib\public\lgridapi.h"\
+	"..\lgridlib\public\lgridlink.h"\
+	"..\LGridLib\Public\LGridPublic.h"\
+	"..\LGridLib\Src\LGrid.cpp"\
+	"..\LGridLib\Src\LGrid.h"\
+	"..\LTableLib\Base\LCellItem.cpp"\
+	"..\LTableLib\Base\LCellItem.h"\
+	"..\LTableLib\Base\LColItem.cpp"\
+	"..\LTableLib\Base\LColItem.h"\
+	"..\LTableLib\Base\LRowItem.cpp"\
+	"..\LTableLib\Base\LRowItem.h"\
+	"..\LTableLib\Base\LStyle.cpp"\
+	"..\LTableLib\Base\LStyle.h"\
+	"..\LTableLib\Interface\LInterface.h"\
+	"..\LTableLib\Public\LPublicDef.h"\
+	"..\LTableLib\Public\LTableApi.h"\
+	"..\LTableLib\Src\LTable.cpp"\
+	"..\LTableLib\Src\LTable.h"\
+	"..\osface\win32\gdi\ldrawer.cpp"\
+	"..\osface\win32\gdi\ldrawer.h"\
+	"..\osface\win32\lplatform.cpp"\
+	"..\osface\win32\lplatform.h"\
+	".\public\lsheetlink.h"\
+	".\StdAfx.h"\
+	"c:\dxsdk8\include\basetsd.h"\
+	

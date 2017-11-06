@@ -1,0 +1,434 @@
+# Microsoft Developer Studio Generated Dependency File, included by LRptDesigner.mak
+
+.\ChildFrm.cpp : \
+	".\ChildFrm.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\clgridbook.cpp : \
+	".\clgridbook.h"\
+	
+
+.\DesignerTollBar.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\EditToolBar.cpp : \
+	".\clgridbook.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\LRptDesignerDoc.h"\
+	".\LRptDesignerView.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\FontComboBox.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\FormatToolBar.cpp : \
+	".\clgridbook.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\LRptDesignerDoc.h"\
+	".\LRptDesignerView.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\Comm\LColorPan.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LToolTip.h"\
+	
+
+.\Comm\LColorPicker.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LToolTip.h"\
+	
+
+.\LFlatComboBox.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\Ctrl\LFlatEdit.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\Comm\LImagePan.cpp : \
+	".\Comm\LImagePan.h"\
+	".\Comm\LPopupPan.h"\
+	
+
+.\Comm\LImagePicker.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LToolTip.h"\
+	
+
+.\Comm\LPickerBtn.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\Comm\LPopupPan.cpp : \
+	".\Comm\LPopupPan.h"\
+	
+
+.\Comm\LReg.cpp : \
+	".\Comm\LReg.h"\
+	
+
+.\LRptDesigner.cpp : \
+	".\ChildFrm.h"\
+	".\clgridbook.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\LRptDesignerDoc.h"\
+	".\LRptDesignerView.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+!IF  "$(CFG)" == "LRptDesigner - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "LRptDesigner - Win32 Debug"
+
+!ENDIF 
+
+.\LRptDesigner.rc : \
+	".\res\BackColor_new.bmp"\
+	".\res\bitmap1.bmp"\
+	".\res\bitmap2.bmp"\
+	".\res\bmp00001.bmp"\
+	".\res\bmp00002.bmp"\
+	".\res\bmp00003.bmp"\
+	".\res\bmp00004.bmp"\
+	".\res\bmp00005.bmp"\
+	".\res\bmp00006.bmp"\
+	".\res\bmp00007.bmp"\
+	".\res\bmp00008.bmp"\
+	".\res\bmp00009.bmp"\
+	".\res\fonttype.bmp"\
+	".\res\ForeColor_new.bmp"\
+	".\res\GridLineAll.bmp"\
+	".\res\GridLineHorz.bmp"\
+	".\res\GridLineNone.bmp"\
+	".\res\GridLineVert.bmp"\
+	".\res\Line.bmp"\
+	".\res\LineBorder.bmp"\
+	".\res\LineBottom.bmp"\
+	".\res\LineLeft.bmp"\
+	".\res\LineRight.bmp"\
+	".\res\LineTop.bmp"\
+	".\res\LRptDesigner.ico"\
+	".\res\LRptDesigner.rc2"\
+	".\res\LRptDesignerDoc.ico"\
+	".\res\noLine.bmp"\
+	".\res\Toolbar.bmp"\
+	".\res\toolbar1.bmp"\
+	".\res\toolbar_.bmp"\
+	
+
+.\LRptDesignerDoc.cpp : \
+	".\clgridbook.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\LRptDesignerDoc.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\LRptDesignerView.cpp : \
+	".\clgridbook.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\LRptDesignerDoc.h"\
+	".\LRptDesignerView.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\Comm\LToolTip.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\MainFrm.cpp : \
+	".\ChildFrm.h"\
+	".\clgridbook.h"\
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\LRptDesignerDoc.h"\
+	".\LRptDesignerView.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\SizeComboBox.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\dxsdk8\include\basetsd.h"\
+	
+
+.\ToolBarComboBox.cpp : \
+	".\Comm\LColorPan.h"\
+	".\Comm\LColorPicker.h"\
+	".\Comm\LImagePan.h"\
+	".\Comm\LImagePicker.h"\
+	".\Comm\LPickerBtn.h"\
+	".\Comm\LPopupPan.h"\
+	".\Comm\LReg.h"\
+	".\Comm\LToolTip.h"\
+	".\Ctrl\LFlatEdit.h"\
+	".\DesignerTollBar.h"\
+	".\EditToolBar.h"\
+	".\FontComboBox.h"\
+	".\FormatToolBar.h"\
+	".\LFlatComboBox.h"\
+	".\LRptDesigner.h"\
+	".\MainFrm.h"\
+	".\SizeComboBox.h"\
+	".\ToolBarComboBox.h"\
+	
+
+!IF  "$(CFG)" == "LRptDesigner - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "LRptDesigner - Win32 Debug"
+
+!ENDIF 
+
+!IF  "$(CFG)" == "LRptDesigner - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "LRptDesigner - Win32 Debug"
+
+!ENDIF 
+

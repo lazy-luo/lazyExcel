@@ -1,0 +1,137 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CLGridBook"=.\Export\Com\CLGridBook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GridBook
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "GridBook"=.\Export\Control\GridBook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LGridBook
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LGUILib"=.\LGUILib\LGUILib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LSheetLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LGridBook"=.\LGridBook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LGUILib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LSheetLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LGridLib"=.\LGridLib\LGridLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LTableLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LSheetLib"=.\LSheetLib\LSheetLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LGridLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LTableLib"=.\LTableLib\LTableLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ScriptEngine
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ScriptEngine"=.\ScriptEngine\ScriptEngine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

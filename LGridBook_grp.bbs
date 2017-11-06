@@ -1,0 +1,25 @@
+[Batch Build]
+CLGridBook - Win32 Debug=1
+CLGridBook - Win32 Release MinDependency=1
+CLGridBook - Win32 Release MinSize=1
+CLGridBook - Win32 Unicode Debug=1
+CLGridBook - Win32 Unicode Release MinDependency=1
+CLGridBook - Win32 Unicode Release MinSize=1
+GridBook - Win32 Debug=1
+GridBook - Win32 Release MinDependency=1
+GridBook - Win32 Release MinSize=1
+GridBook - Win32 Unicode Debug=1
+GridBook - Win32 Unicode Release MinDependency=1
+GridBook - Win32 Unicode Release MinSize=1
+LGridBook - Win32 Debug=1
+LGridBook - Win32 Release=1
+LGridLib - Win32 Debug=1
+LGridLib - Win32 Release=1
+LGUILib - Win32 Debug=1
+LGUILib - Win32 Release=1
+LSheetLib - Win32 Debug=1
+LSheetLib - Win32 Release=1
+LTableLib - Win32 Debug=1
+LTableLib - Win32 Release=1
+ScriptEngine - Win32 Debug=1
+ScriptEngine - Win32 Release=1

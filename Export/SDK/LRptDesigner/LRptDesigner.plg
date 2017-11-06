@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LRptDesigner - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPCAB8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"../../../Bin/Build/SDK/LRptDesigner/SDK/Debug/" /Fp"../../../Bin/Build/SDK/LRptDesigner/SDK/Debug/LRptDesigner.pch" /Yu"stdafx.h" /Fo"../../../Bin/Build/SDK/LRptDesigner/SDK/Debug/" /Fd"../../../Bin/Build/SDK/LRptDesigner/SDK/Debug/" /FD /GZ /c 
+"D:\my_src\c++\LGridBook\Export\SDK\LRptDesigner\LRptDesigner.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPCAB8.tmp" 
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPCAB9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"../../../Bin/Build/SDK/LRptDesigner/SDK/Debug/LRptDesigner_Sdk_Dbg.pdb" /debug /machine:I386 /out:"../../../Bin/LRptDesigner_Sdk_Dbg.exe" /pdbtype:sept 
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\ChildFrm.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\DesignerTollBar.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\EditToolBar.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\FontComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\FormatToolBar.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LColorPan.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LColorPicker.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LDlgMemo.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LDlgSheetName.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LFlatComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LFlatEdit.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LImagePan.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LImagePicker.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LPickerBtn.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LPopupPan.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LReg.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesigner.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesignerDoc.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesignerView.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LToolTip.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\MainFrm.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\SizeComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\StdAfx.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\ToolBarComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesigner.res"
+]
+Creating command line "link.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPCAB9.tmp"
+<h3>Output Window</h3>
+Compiling...
+LRptDesigner.cpp
+Linking...
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPCD39.tmp" with contents
+[
+/nologo /o"../../../Bin/Build/SDK/LRptDesigner/SDK/Debug/LRptDesigner.bsc" 
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\StdAfx.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\ChildFrm.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\DesignerTollBar.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\EditToolBar.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\FontComboBox.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\FormatToolBar.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LColorPan.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LColorPicker.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LDlgMemo.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LDlgSheetName.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LFlatComboBox.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LFlatEdit.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LImagePan.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LImagePicker.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LPickerBtn.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LPopupPan.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LReg.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesigner.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesignerDoc.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LRptDesignerView.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\LToolTip.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\MainFrm.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\SizeComboBox.sbr"
+"\my_src\c++\LGridBook\Bin\Build\SDK\LRptDesigner\SDK\Debug\ToolBarComboBox.sbr"]
+Creating command line "bscmake.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPCD39.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LRptDesigner_Sdk_Dbg.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

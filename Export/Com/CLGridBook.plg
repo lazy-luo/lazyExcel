@@ -1,0 +1,503 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ScriptEngine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSP9107.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SCRIPTENGINE_EXPORTS" /Fr"../Bin/Build/script_engine/Release/" /Fo"../Bin/Build/script_engine/Release/" /Fd"../Bin/Build/script_engine/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\alanysis_tokens.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\interface.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\vm\LZYVM.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\MD5\md5c.c"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\press_computer.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\script_engine.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\script\script_rule.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\ScriptEngine.cpp"
+"C:\work_folder\c++\LGridBook\ScriptEngine\src\string_parse.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSP9107.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSP9108.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /stack:0xa00000,0x100000 /dll /pdb:none /machine:I386 /out:"../Bin/script_engine.dll" /implib:"../Bin/Build/script_engine/Release/script_engine.lib" 
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\alanysis_tokens.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\interface.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\LZYVM.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\md5c.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\press_computer.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\script_engine.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\script_rule.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\ScriptEngine.obj"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\string_parse.obj"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSP9108.tmp"
+<h3>Output Window</h3>
+Compiling...
+alanysis_tokens.cpp
+interface.cpp
+LZYVM.cpp
+Generating Code...
+Compiling...
+md5c.c
+Generating Code...
+Compiling...
+press_computer.cpp
+script_engine.cpp
+script_rule.cpp
+ScriptEngine.cpp
+string_parse.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/script_engine/Release/script_engine.lib and object ../Bin/Build/script_engine/Release/script_engine.exp
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPA28D.tmp" with contents
+[
+/nologo /o"../Bin/Build/script_engine/Release/ScriptEngine.bsc" 
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\alanysis_tokens.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\interface.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\LZYVM.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\md5c.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\press_computer.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\script_engine.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\script_rule.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\ScriptEngine.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\string_parse.sbr"]
+Creating command line "bscmake.exe @C:\Users\lzy\AppData\Local\Temp\RSPA28D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: LTableLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../Bin/Build/LTableLib/Release/TableRes.res" /i "res" /d "NDEBUG" /d "LTABLELIB_EXPORTS" "C:\work_folder\c++\LGridBook\LTableLib\res\TableRes.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPA5DA.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LTABLELIB_EXPORTS" /D "_GLOBAL_EXPORT_" /FR"../Bin/Build/LTableLib/Release/" /Fp"../Bin/Build/LTableLib/Release/LTableLib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LTableLib/Release/" /Fd"../Bin/Build/LTableLib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LTableLib\Base\LCellItem.cpp"
+"C:\work_folder\c++\LGridBook\LTableLib\Base\LColItem.cpp"
+"C:\work_folder\c++\LGridBook\LTableLib\Base\LRowItem.cpp"
+"C:\work_folder\c++\LGridBook\LTableLib\Base\LStyle.cpp"
+"C:\work_folder\c++\LGridBook\LTableLib\Src\LTable.cpp"
+"C:\work_folder\c++\LGridBook\LTableLib\LTableLib.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPA5DA.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPA5DB.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LTABLELIB_EXPORTS" /D "_GLOBAL_EXPORT_" /FR"../Bin/Build/LTableLib/Release/" /Fp"../Bin/Build/LTableLib/Release/LTableLib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LTableLib/Release/" /Fd"../Bin/Build/LTableLib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LTableLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPA5DB.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPA5DC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LTableLib/Release/LTableLib.pdb" /machine:I386 /out:"../Bin/LTableLib.dll" /implib:"../Bin/Build/LTableLib/Release/LTableLib.lib" 
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LCellItem.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LColItem.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LRowItem.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LStyle.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LTable.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LTableLib.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\StdAfx.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\TableRes.res"
+"\work_folder\c++\LGridBook\Bin\Build\script_engine\Release\script_engine.lib"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPA5DC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LCellItem.cpp
+LColItem.cpp
+LRowItem.cpp
+LStyle.cpp
+LTable.cpp
+LTableLib.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LTableLib/Release/LTableLib.lib and object ../Bin/Build/LTableLib/Release/LTableLib.exp
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPB0BA.tmp" with contents
+[
+/nologo /o"../Bin/Build/LTableLib/Release/LTableLib.bsc" 
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\StdAfx.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LCellItem.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LColItem.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LRowItem.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LStyle.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LTable.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LTableLib.sbr"]
+Creating command line "bscmake.exe @C:\Users\lzy\AppData\Local\Temp\RSPB0BA.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: LGridLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../Bin/Build/LGridLib/Release/TableRes.res" /i "\work_folder\c++\LGridBook\LTableLib\res" /d "NDEBUG" "C:\work_folder\c++\LGridBook\LTableLib\res\TableRes.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPB1D4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGRIDLIB_EXPORTS" /FR"../Bin/Build/LGridLib/Release/" /Fp"../Bin/Build/LGridLib/Release/LGridLib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LGridLib/Release/" /Fd"../Bin/Build/LGridLib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LGridLib\Src\LGrid.cpp"
+"C:\work_folder\c++\LGridBook\LGridLib\LGridLib.cpp"
+"C:\work_folder\c++\LGridBook\LGridLib\Base\LMerge.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPB1D4.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPB1D5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGRIDLIB_EXPORTS" /FR"../Bin/Build/LGridLib/Release/" /Fp"../Bin/Build/LGridLib/Release/LGridLib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LGridLib/Release/" /Fd"../Bin/Build/LGridLib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LGridLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPB1D5.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPB1E6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LGridLib/Release/LGridLib.pdb" /machine:I386 /out:"../Bin/LGridLib.dll" /implib:"../Bin/Build/LGridLib/Release/LGridLib.lib" 
+"\work_folder\c++\LGridBook\Bin\Build\LGridLib\Release\LGrid.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGridLib\Release\LGridLib.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGridLib\Release\LMerge.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGridLib\Release\StdAfx.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGridLib\Release\TableRes.res"
+"\work_folder\c++\LGridBook\Bin\Build\LTableLib\Release\LTableLib.lib"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPB1E6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LGrid.cpp
+LGridLib.cpp
+LMerge.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LGridLib/Release/LGridLib.lib and object ../Bin/Build/LGridLib/Release/LGridLib.exp
+<h3>
+--------------------Configuration: LSheetLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../Bin/Build/LSheetLib/Release/TableRes.res" /i "\work_folder\c++\LGridBook\LTableLib\res" /d "NDEBUG" "C:\work_folder\c++\LGridBook\LTableLib\res\TableRes.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPBC57.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LSHEETLIB_EXPORTS" /FR"../Bin/Build/LSheetLib/Release/" /Fp"../Bin/Build/LSheetLib/Release/LSheetLib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LSheetLib/Release/" /Fd"../Bin/Build/LSheetLib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LSheetLib\Src\LSheet.cpp"
+"C:\work_folder\c++\LGridBook\LSheetLib\LSheetLib.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPBC57.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPBC58.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LSHEETLIB_EXPORTS" /FR"../Bin/Build/LSheetLib/Release/" /Fp"../Bin/Build/LSheetLib/Release/LSheetLib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LSheetLib/Release/" /Fd"../Bin/Build/LSheetLib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LSheetLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPBC58.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPBC59.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LSheetLib/Release/LSheetLib.pdb" /machine:I386 /out:"../Bin/LSheetLib.dll" /implib:"../Bin/Build/LSheetLib/Release/LSheetLib.lib" 
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\LSheet.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\LSheetLib.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\StdAfx.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\TableRes.res"
+"\work_folder\c++\LGridBook\Bin\Build\LGridLib\Release\LGridLib.lib"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPBC59.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LSheet.cpp
+LSheetLib.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LSheetLib/Release/LSheetLib.lib and object ../Bin/Build/LSheetLib/Release/LSheetLib.exp
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPC63D.tmp" with contents
+[
+/nologo /o"../Bin/Build/LSheetLib/Release/LSheetLib.bsc" 
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\StdAfx.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\LSheet.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\LSheetLib.sbr"]
+Creating command line "bscmake.exe @C:\Users\lzy\AppData\Local\Temp\RSPC63D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: LGUILib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../Bin/Build/LGUILib/Release/TableRes.res" /i "\work_folder\c++\LGridBook\LTableLib\res" /d "NDEBUG" "C:\work_folder\c++\LGridBook\LTableLib\res\TableRes.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPC738.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGUILIB_EXPORTS" /FR"../Bin/Build/LGUILib/Release/" /Fp"../Bin/Build/LGUILib/Release/LGUILib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LGUILib/Release/" /Fd"../Bin/Build/LGUILib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LGUILib\Src\LArtFontPan.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\Src\LBitmapPan.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\Src\LChartPan.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\Src\LDrawerSheet.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\Base\LDrawItem.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\LGUILib.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\Src\LScrollBar.cpp"
+"C:\work_folder\c++\LGridBook\LGUILib\Src\LToolTip.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPC738.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPC739.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGUILIB_EXPORTS" /FR"../Bin/Build/LGUILib/Release/" /Fp"../Bin/Build/LGUILib/Release/LGUILib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LGUILib/Release/" /Fd"../Bin/Build/LGUILib/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\LGUILib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPC739.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPC73A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LGUILib/Release/LGUILib.pdb" /machine:I386 /out:"../Bin/LGUILib.dll" /implib:"../Bin/Build/LGUILib/Release/LGUILib.lib" 
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LArtFontPan.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LBitmapPan.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LChartPan.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LDrawerSheet.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LDrawItem.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LGUILib.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LScrollBar.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\LToolTip.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\StdAfx.obj"
+"\work_folder\c++\LGridBook\Bin\Build\LGUILib\Release\TableRes.res"
+"\work_folder\c++\LGridBook\Bin\Build\LSheetLib\Release\LSheetLib.lib"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPC73A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LArtFontPan.cpp
+LBitmapPan.cpp
+LChartPan.cpp
+LDrawerSheet.cpp
+LDrawItem.cpp
+LGUILib.cpp
+LScrollBar.cpp
+LToolTip.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LGUILib/Release/LGUILib.lib and object ../Bin/Build/LGUILib/Release/LGUILib.exp
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+<h3>
+--------------------Configuration: LGridBook - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Bin/Build/LGridBook/Release/TableRes.res" /i "LTableLib\res" /d "NDEBUG" "C:\work_folder\c++\LGridBook\LTableLib\res\TableRes.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPD593.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGRIDBOOK_EXPORTS" /D "_EXPORT_ADDIN_" /FR"Bin/Build/LGridBook/Release/" /Fp"Bin/Build/LGridBook/Release/LGridBook.pch" /Yu"stdafx.h" /Fo"Bin/Build/LGridBook/Release/" /Fd"Bin/Build/LGridBook/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\Src\LBook.cpp"
+"C:\work_folder\c++\LGridBook\OSFace\Win32\InterLink\InplaceCtrl\LEditCtrl.cpp"
+"C:\work_folder\c++\LGridBook\Export\SDK\LExport.cpp"
+"C:\work_folder\c++\LGridBook\LGridBook.cpp"
+"C:\work_folder\c++\LGridBook\OSFace\Win32\InterLink\LRptGrid.cpp"
+"C:\work_folder\c++\LGridBook\Base\LTabArea.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPD593.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPD594.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGRIDBOOK_EXPORTS" /D "_EXPORT_ADDIN_" /FR"Bin/Build/LGridBook/Release/" /Fp"Bin/Build/LGridBook/Release/LGridBook.pch" /Yc"stdafx.h" /Fo"Bin/Build/LGridBook/Release/" /Fd"Bin/Build/LGridBook/Release/" /FD /c 
+"C:\work_folder\c++\LGridBook\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPD594.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPD595.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Bin/Build/LGridBook/Release/LGridBook.pdb" /machine:I386 /out:"Bin/LGridBook.dll" /implib:"Bin/Build/LGridBook/Release/LGridBook.lib" 
+".\Bin\Build\LGridBook\Release\LBook.obj"
+".\Bin\Build\LGridBook\Release\LEditCtrl.obj"
+".\Bin\Build\LGridBook\Release\LExport.obj"
+".\Bin\Build\LGridBook\Release\LGridBook.obj"
+".\Bin\Build\LGridBook\Release\LRptGrid.obj"
+".\Bin\Build\LGridBook\Release\LTabArea.obj"
+".\Bin\Build\LGridBook\Release\StdAfx.obj"
+".\Bin\Build\LGridBook\Release\TableRes.res"
+".\Bin\Build\LGUILib\Release\LGUILib.lib"
+".\Bin\Build\LSheetLib\Release\LSheetLib.lib"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPD595.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LBook.cpp
+LEditCtrl.cpp
+LExport.cpp
+LGridBook.cpp
+LRptGrid.cpp
+LTabArea.cpp
+Generating Code...
+Linking...
+   Creating library Bin/Build/LGridBook/Release/LGridBook.lib and object Bin/Build/LGridBook/Release/LGridBook.exp
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPE2A6.tmp" with contents
+[
+/nologo /o"Bin/Build/LGridBook/Release/LGridBook.bsc" 
+".\Bin\Build\LGridBook\Release\StdAfx.sbr"
+".\Bin\Build\LGridBook\Release\LBook.sbr"
+".\Bin\Build\LGridBook\Release\LEditCtrl.sbr"
+".\Bin\Build\LGridBook\Release\LExport.sbr"
+".\Bin\Build\LGridBook\Release\LGridBook.sbr"
+".\Bin\Build\LGridBook\Release\LRptGrid.sbr"
+".\Bin\Build\LGridBook\Release\LTabArea.sbr"]
+Creating command line "bscmake.exe @C:\Users\lzy\AppData\Local\Temp\RSPE2A6.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: GridBook - Win32 Release MinSize--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /tlb ".\GridBook.tlb" /h "GridBook.h" /iid "GridBook_i.c" /Oicf "C:\work_folder\c++\LGridBook\Export\Control\GridBook.idl""
+Creating command line "rc.exe /l 0x804 /fo"../../Bin/Build/Control/ReleaseMinSize/GridBook.res" /d "NDEBUG" "C:\work_folder\c++\LGridBook\Export\Control\GridBook.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPE3CF.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_LCOM_EXPORT_" /FR"../../Bin/Build/Control/ReleaseMinSize/" /Fp"../../Bin/Build/Control/ReleaseMinSize/GridBook.pch" /Yu"stdafx.h" /Fo"../../Bin/Build/Control/ReleaseMinSize/" /Fd"../../Bin/Build/Control/ReleaseMinSize/" /FD /c 
+"C:\work_folder\c++\LGridBook\Export\Control\GridBook.cpp"
+"C:\work_folder\c++\LGridBook\Export\Control\ReportGrid.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPE3CF.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPE3D0.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_LCOM_EXPORT_" /FR"../../Bin/Build/Control/ReleaseMinSize/" /Fp"../../Bin/Build/Control/ReleaseMinSize/GridBook.pch" /Yc"stdafx.h" /Fo"../../Bin/Build/Control/ReleaseMinSize/" /Fd"../../Bin/Build/Control/ReleaseMinSize/" /FD /c 
+"C:\work_folder\c++\LGridBook\Export\Control\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPE3D0.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPE3E1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mtx.lib mtxguid.lib delayimp.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"../../Bin/Build/Control/ReleaseMinSize/GridBook.pdb" /machine:I386 /def:".\GridBook.def" /out:"../../Bin/GridBook.ocx" /implib:"../../Bin/Build/Control/ReleaseMinSize/GridBook.lib" /delayload:mtxex.dll 
+"\work_folder\c++\LGridBook\Bin\Build\Control\ReleaseMinSize\GridBook.obj"
+"\work_folder\c++\LGridBook\Bin\Build\Control\ReleaseMinSize\ReportGrid.obj"
+"\work_folder\c++\LGridBook\Bin\Build\Control\ReleaseMinSize\StdAfx.obj"
+"\work_folder\c++\LGridBook\Bin\Build\Control\ReleaseMinSize\GridBook.res"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPE3E1.tmp"
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPE3E2.bat" with contents
+[
+@echo off
+regsvr32 /s /c "\work_folder\c++\LGridBook\Bin\GridBook.ocx"
+echo regsvr32 exec. time > ".\../../Bin/Build/Control/ReleaseMinSize\regsvr32.trg"
+echo Execute mtxrereg.exe before using MTS components in MTS
+]
+Creating command line "C:\Users\lzy\AppData\Local\Temp\RSPE3E2.bat"
+Creating Type Library...
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing C:\work_folder\c++\LGridBook\Export\Control\GridBook.idl
+GridBook.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GridBook.cpp
+ReportGrid.cpp
+Generating Code...
+Linking...
+   Creating library ../../Bin/Build/Control/ReleaseMinSize/GridBook.lib and object ../../Bin/Build/Control/ReleaseMinSize/GridBook.exp
+LINK : warning LNK4199: /DELAYLOAD:mtxex.dll ignored; no imports found from mtxex.dll
+<h3>Output Window</h3>
+Performing registration
+Execute mtxrereg.exe before using MTS components in MTS
+<h3>
+--------------------Configuration: CLGridBook - Win32 Release MinSize--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /tlb ".\CLGridBook.tlb" /h "CLGridBook.h" /iid "CLGridBook_i.c" /Oicf "C:\work_folder\c++\LGridBook\Export\Com\CLGridBook.idl""
+Creating command line "rc.exe /l 0x804 /fo"../../Bin/Build/Com/ReleaseMinSize/CLGridBook.res" /d "NDEBUG" "C:\work_folder\c++\LGridBook\Export\Com\CLGridBook.rc"" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPF661.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "_USRDLL" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_LCOM_EXPORT_" /FR"../../Bin/Build/Com/ReleaseMinSize/" /Fp"../../Bin/Build/Com/ReleaseMinSize/CLGridBook.pch" /Yu"stdafx.h" /Fo"../../Bin/Build/Com/ReleaseMinSize/" /Fd"../../Bin/Build/Com/ReleaseMinSize/" /FD /c 
+"C:\work_folder\c++\LGridBook\Export\Com\CLBookLib.cpp"
+"C:\work_folder\c++\LGridBook\Export\Com\CLGridBook.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPF661.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPF662.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "_USRDLL" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_LCOM_EXPORT_" /FR"../../Bin/Build/Com/ReleaseMinSize/" /Fp"../../Bin/Build/Com/ReleaseMinSize/CLGridBook.pch" /Yc"stdafx.h" /Fo"../../Bin/Build/Com/ReleaseMinSize/" /Fd"../../Bin/Build/Com/ReleaseMinSize/" /FD /c 
+"C:\work_folder\c++\LGridBook\Export\Com\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lzy\AppData\Local\Temp\RSPF662.tmp" 
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPF673.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mtx.lib mtxguid.lib delayimp.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"../../Bin/Build/Com/ReleaseMinSize/CLGridBook.pdb" /machine:I386 /def:".\CLGridBook.def" /out:"../../Bin/CLGridBook.dll" /implib:"../../Bin/Build/Com/ReleaseMinSize/CLGridBook.lib" /delayload:mtxex.dll 
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\CLBookLib.obj"
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\CLGridBook.obj"
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\StdAfx.obj"
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\CLGridBook.res"
+"\work_folder\c++\LGridBook\Bin\Build\Control\ReleaseMinSize\GridBook.lib"
+]
+Creating command line "link.exe @C:\Users\lzy\AppData\Local\Temp\RSPF673.tmp"
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSPF674.bat" with contents
+[
+@echo off
+regsvr32 /s /c "\work_folder\c++\LGridBook\Bin\CLGridBook.dll"
+echo regsvr32 exec. time > ".\../../Bin/Build/Com/ReleaseMinSize\regsvr32.trg"
+echo Execute mtxrereg.exe before using MTS components in MTS
+]
+Creating command line "C:\Users\lzy\AppData\Local\Temp\RSPF674.bat"
+Creating Type Library...
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing C:\work_folder\c++\LGridBook\Export\Com\CLGridBook.idl
+CLGridBook.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CLBookLib.cpp
+CLGridBook.cpp
+Generating Code...
+Linking...
+   Creating library ../../Bin/Build/Com/ReleaseMinSize/CLGridBook.lib and object ../../Bin/Build/Com/ReleaseMinSize/CLGridBook.exp
+LINK : warning LNK4199: /DELAYLOAD:mtxex.dll ignored; no imports found from mtxex.dll
+<h3>Output Window</h3>
+Performing registration
+Execute mtxrereg.exe before using MTS components in MTS
+Creating temporary file "C:\Users\lzy\AppData\Local\Temp\RSP9AF.tmp" with contents
+[
+/nologo /o"../../Bin/Build/Com/ReleaseMinSize/CLGridBook.bsc" 
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\StdAfx.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\CLBookLib.sbr"
+"\work_folder\c++\LGridBook\Bin\Build\Com\ReleaseMinSize\CLGridBook.sbr"]
+Creating command line "bscmake.exe @C:\Users\lzy\AppData\Local\Temp\RSP9AF.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CLGridBook.dll - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

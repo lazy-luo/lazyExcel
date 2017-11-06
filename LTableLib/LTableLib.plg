@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ScriptEngine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPBE26.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SCRIPTENGINE_EXPORTS" /Fr"../Bin/Build/script_engine/Release/" /Fo"../Bin/Build/script_engine/Release/" /Fd"../Bin/Build/script_engine/Release/" /FD /c 
+"D:\my_src\c++\LGridBook\ScriptEngine\src\alanysis_tokens.cpp"
+"D:\my_src\c++\LGridBook\ScriptEngine\src\interface.cpp"
+"D:\my_src\c++\LGridBook\ScriptEngine\src\press_computer.cpp"
+"D:\my_src\c++\LGridBook\ScriptEngine\src\script_engine.cpp"
+"D:\my_src\c++\LGridBook\ScriptEngine\src\script\script_rule.cpp"
+"D:\my_src\c++\LGridBook\ScriptEngine\ScriptEngine.cpp"
+"D:\my_src\c++\LGridBook\ScriptEngine\src\string_parse.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPBE26.tmp" 
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPBE37.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /stack:0xa00000,0x100000 /dll /pdb:none /machine:I386 /out:"../Bin/script_engine.dll" /implib:"../Bin/Build/script_engine/Release/script_engine.lib" 
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\alanysis_tokens.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\interface.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\LZYVM.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\md5c.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\press_computer.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\script_engine.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\script_rule.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\ScriptEngine.obj"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\string_parse.obj"
+]
+Creating command line "link.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPBE37.tmp"
+<h3>Output Window</h3>
+Compiling...
+alanysis_tokens.cpp
+interface.cpp
+press_computer.cpp
+script_engine.cpp
+script_rule.cpp
+ScriptEngine.cpp
+string_parse.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/script_engine/Release/script_engine.lib and object ../Bin/Build/script_engine/Release/script_engine.exp
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD5AE.tmp" with contents
+[
+/nologo /o"../Bin/Build/script_engine/Release/ScriptEngine.bsc" 
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\alanysis_tokens.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\interface.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\LZYVM.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\md5c.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\press_computer.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\script_engine.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\script_rule.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\ScriptEngine.sbr"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\string_parse.sbr"]
+Creating command line "bscmake.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD5AE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: LTableLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD928.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LTABLELIB_EXPORTS" /D "_GLOBAL_EXPORT_" /FR"../Bin/Build/LTableLib/Release/" /Fp"../Bin/Build/LTableLib/Release/LTableLib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LTableLib/Release/" /Fd"../Bin/Build/LTableLib/Release/" /FD /c 
+"D:\my_src\c++\LGridBook\LTableLib\Base\LCellItem.cpp"
+"D:\my_src\c++\LGridBook\LTableLib\Base\LColItem.cpp"
+"D:\my_src\c++\LGridBook\LTableLib\Base\LRowItem.cpp"
+"D:\my_src\c++\LGridBook\LTableLib\Base\LStyle.cpp"
+"D:\my_src\c++\LGridBook\LTableLib\Src\LTable.cpp"
+"D:\my_src\c++\LGridBook\LTableLib\LTableLib.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD928.tmp" 
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD929.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LTABLELIB_EXPORTS" /D "_GLOBAL_EXPORT_" /FR"../Bin/Build/LTableLib/Release/" /Fp"../Bin/Build/LTableLib/Release/LTableLib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LTableLib/Release/" /Fd"../Bin/Build/LTableLib/Release/" /FD /c 
+"D:\my_src\c++\LGridBook\LTableLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD929.tmp" 
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD92A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LTableLib/Release/LTableLib.pdb" /machine:I386 /out:"../Bin/LTableLib.dll" /implib:"../Bin/Build/LTableLib/Release/LTableLib.lib" 
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LCellItem.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LColItem.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LRowItem.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LStyle.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LTable.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LTableLib.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\StdAfx.obj"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\TableRes.res"
+"\my_src\c++\LGridBook\Bin\Build\script_engine\Release\script_engine.lib"
+]
+Creating command line "link.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPD92A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+LCellItem.cpp
+LColItem.cpp
+LRowItem.cpp
+LStyle.cpp
+LTable.cpp
+LTableLib.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LTableLib/Release/LTableLib.lib and object ../Bin/Build/LTableLib/Release/LTableLib.exp
+Creating temporary file "C:\Users\zhiyong.luo\AppData\Local\Temp\RSPEF5A.tmp" with contents
+[
+/nologo /o"../Bin/Build/LTableLib/Release/LTableLib.bsc" 
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\StdAfx.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LCellItem.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LColItem.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LRowItem.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LStyle.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LTable.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LTableLib\Release\LTableLib.sbr"]
+Creating command line "bscmake.exe @C:\Users\zhiyong.luo\AppData\Local\Temp\RSPEF5A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LTableLib.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

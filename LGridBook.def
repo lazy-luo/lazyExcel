@@ -1,0 +1,31 @@
+; LGridBook.def : Declares the module parameters.
+
+LIBRARY      "LGridBook.DLL"
+
+EXPORTS
+	AttachWidow				@1 PRIVATE
+	DeattachWindow			@2 PRIVATE
+	SaveBook				@3 PRIVATE
+	LoadBook				@4 PRIVATE
+	AddDrawItem				@5 PRIVATE
+	GetCurrentSheet			@6 PRIVATE
+	AddLinstener			@7 PRIVATE
+	GetSheet				@8 PRIVATE
+	SetMessageFilter		@9 PRIVATE
+	RemoveMessageFilter		@10 PRIVATE
+	SetFocusItem			@11 PRIVATE
+	NotifyMessage			@12 PRIVATE
+	AddSheet				@13 PRIVATE
+	SetCurrentSheet			@14 PRIVATE
+	SetRows					@15 PRIVATE
+	GetRows					@16 PRIVATE
+	SetCols					@17 PRIVATE
+	GetCols					@18 PRIVATE
+	SetFixedRows			@19 PRIVATE
+	GetFixedRows			@20 PRIVATE
+	SetFixedCols			@21 PRIVATE
+	GetFixedCols			@22 PRIVATE
+	SetFreezeRows			@23 PRIVATE
+	GetFreezeRows			@24 PRIVATE
+	SetFreezeCols			@25 PRIVATE
+	GetFreezeCols			@26 PRIVATE

@@ -1,0 +1,70 @@
+# Microsoft Developer Studio Generated Dependency File, included by LTableLib.mak
+
+.\Base\LCellItem.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	".\Base\LCellItem.h"\
+	".\Interface\LInterface.h"\
+	".\Public\LPublicDef.h"\
+	".\Public\LTableApi.h"\
+	
+
+.\Base\LColItem.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	".\Base\LColItem.h"\
+	".\Interface\LInterface.h"\
+	".\Public\LPublicDef.h"\
+	".\Public\LTableApi.h"\
+	
+
+.\Base\LRowItem.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	".\Base\LRowItem.h"\
+	".\Interface\LInterface.h"\
+	".\Public\LPublicDef.h"\
+	".\Public\LTableApi.h"\
+	
+
+..\LComm\LSerial.cpp : \
+	"..\lcomm\lglobalparam.h"\
+	"..\LComm\LSerial.h"\
+	
+
+.\Base\LStyle.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lfont.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	".\Base\LStyle.h"\
+	".\Interface\LInterface.h"\
+	".\Public\LPublicDef.h"\
+	".\Public\LTableApi.h"\
+	
+
+.\Src\LTable.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	".\Base\LCellItem.h"\
+	".\Base\LColItem.h"\
+	".\Base\LRowItem.h"\
+	".\Interface\LInterface.h"\
+	".\Public\LPublicDef.h"\
+	".\Public\LTableApi.h"\
+	".\Src\LTable.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\dxsdk8\include\basetsd.h"\
+	

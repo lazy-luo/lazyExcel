@@ -1,0 +1,26 @@
+HKCR
+{
+	CLGridBook.CLBookLib.1 = s 'CLBookLib Class'
+	{
+		CLSID = s '{D3D6527B-CD33-4482-9B7A-21C8FF6929A7}'
+	}
+	CLGridBook.CLBookLib = s 'CLBookLib Class'
+	{
+		CLSID = s '{D3D6527B-CD33-4482-9B7A-21C8FF6929A7}'
+		CurVer = s 'CLGridBook.CLBookLib.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D3D6527B-CD33-4482-9B7A-21C8FF6929A7} = s 'CLBookLib Class'
+		{
+			ProgID = s 'CLGridBook.CLBookLib.1'
+			VersionIndependentProgID = s 'CLGridBook.CLBookLib'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{7B9ED975-60B3-42E4-9A73-5EC9D560DC71}'
+		}
+	}
+}

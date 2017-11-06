@@ -1,0 +1,53 @@
+# Microsoft Developer Studio Generated Dependency File, included by LGridLib.mak
+
+.\Src\LGrid.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lclipdc.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.h"\
+	"..\LTableLib\Base\LCellItem.h"\
+	"..\LTableLib\Base\LColItem.h"\
+	"..\LTableLib\Base\LRowItem.h"\
+	"..\LTableLib\Interface\LInterface.h"\
+	"..\LTableLib\Public\LPublicDef.h"\
+	"..\LTableLib\Public\LTableApi.h"\
+	"..\LTableLib\Src\LTable.h"\
+	"..\osface\win32\gdi\ldrawer.h"\
+	"..\osface\win32\lplatform.h"\
+	".\Interface\LGridInterface.h"\
+	".\public\lgridapi.h"\
+	".\Public\LGridPublic.h"\
+	".\Src\LGrid.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\lcomm\interface.h"\
+	"..\lcomm\lclipdc.cpp"\
+	"..\lcomm\lclipdc.h"\
+	"..\lcomm\lfont.h"\
+	"..\lcomm\lglobalparam.h"\
+	"..\lcomm\lmap.h"\
+	"..\LComm\LSerial.cpp"\
+	"..\LComm\LSerial.h"\
+	"..\LTableLib\Base\LCellItem.cpp"\
+	"..\LTableLib\Base\LCellItem.h"\
+	"..\LTableLib\Base\LColItem.cpp"\
+	"..\LTableLib\Base\LColItem.h"\
+	"..\LTableLib\Base\LRowItem.cpp"\
+	"..\LTableLib\Base\LRowItem.h"\
+	"..\LTableLib\Base\LStyle.cpp"\
+	"..\LTableLib\Base\LStyle.h"\
+	"..\LTableLib\Interface\LInterface.h"\
+	"..\LTableLib\Public\LPublicDef.h"\
+	"..\LTableLib\Public\LTableApi.h"\
+	"..\LTableLib\Src\LTable.cpp"\
+	"..\LTableLib\Src\LTable.h"\
+	"..\osface\win32\gdi\ldrawer.cpp"\
+	"..\osface\win32\gdi\ldrawer.h"\
+	"..\osface\win32\lplatform.cpp"\
+	"..\osface\win32\lplatform.h"\
+	".\public\lgridlink.h"\
+	".\StdAfx.h"\
+	"c:\dxsdk8\include\basetsd.h"\
+	

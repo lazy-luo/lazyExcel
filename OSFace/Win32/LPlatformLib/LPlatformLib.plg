@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LPlatformLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lzy\LOCALS~1\Temp\RSP95D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LPLATFORMLIB_EXPORTS" /Fp"../../../Bin/Build/LPlatform/Release/LPlatformLib.pch" /Yu"stdafx.h" /Fo"../../../Bin/Build/LPlatform/Release/" /Fd"../../../Bin/Build/LPlatform/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lzy\LOCALS~1\Temp\RSP95D.tmp" 
+Creating temporary file "C:\DOCUME~1\lzy\LOCALS~1\Temp\RSP95E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /entry:"DllMain" /dll /incremental:no /pdb:"../../../Bin/Build/LPlatform/Release/LPlatformLib.pdb" /machine:I386 /nodefaultlib /out:"../../../Bin/LPlatformLib.dll" /implib:"../../../Bin/Build/LPlatform/Release/LPlatformLib.lib" 
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LPlatform\Release\LPlatformLib.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LPlatform\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\lzy\LOCALS~1\Temp\RSP95E.tmp"
+<h3>Output Window</h3>
+Compiling...
+LPlatformLib.cpp
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(16) : warning C4101: 'ptr' : unreferenced local variable
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(36) : warning C4405: 'di' : identifier is reserved word
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(36) : error C2400: inline assembler syntax error in 'opcode'; found 'di'
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(37) : warning C4405: 'cx' : identifier is reserved word
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(37) : error C2400: inline assembler syntax error in 'opcode'; found 'cx'
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(39) : warning C4405: 'byte' : identifier is reserved word
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\OSFace\Win32\LPlatformLib\LPlatformLib.cpp(39) : error C2400: inline assembler syntax error in 'opcode'; found 'byte'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+LPlatformLib.dll - 3 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

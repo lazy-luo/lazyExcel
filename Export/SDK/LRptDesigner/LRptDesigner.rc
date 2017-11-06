@@ -1,0 +1,731 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\LRptDesigner.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\LRptDesigner.ico"
+IDR_LRPTDETYPE          ICON    DISCARDABLE     "res\\LRptDesignerDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_EDITBAR             BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_TOOLBAR_FORMAT      BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_TOOLBAR_DESIGNER    BITMAP  DISCARDABLE     "res\\toolbar_.bmp"
+IDB_FONTTYPE            BITMAP  DISCARDABLE     "res\\fonttype.bmp"
+IDB_BMP_BKCOLOR         BITMAP  DISCARDABLE     "res\\BackColor_new.bmp"
+IDB_BMP_FORECOLOR       BITMAP  DISCARDABLE     "res\\ForeColor_new.bmp"
+IDB_BMP_BORDER_COLOR    BITMAP  DISCARDABLE     "res\\Line.bmp"
+IDB_BMP_BORDER_NONE     BITMAP  DISCARDABLE     "res\\noLine.bmp"
+IDB_BMP_BORDER_BOTTOM   BITMAP  DISCARDABLE     "res\\LineBottom.bmp"
+IDB_BMP_BORDER_LEFT     BITMAP  DISCARDABLE     "res\\LineLeft.bmp"
+IDB_BMP_BORDER_RIGHT    BITMAP  DISCARDABLE     "res\\LineRight.bmp"
+IDB_BMP_BORDER_TOP      BITMAP  DISCARDABLE     "res\\LineTop.bmp"
+IDB_BMP_BORDER_ALL      BITMAP  DISCARDABLE     "res\\LineBorder.bmp"
+IDB_BMP_GRIDLINE_ALL    BITMAP  DISCARDABLE     "res\\GridLineAll.bmp"
+IDB_BMP_GRIDLINE_HORZ   BITMAP  DISCARDABLE     "res\\GridLineHorz.bmp"
+IDB_BMP_GRIDLINE_NONE   BITMAP  DISCARDABLE     "res\\GridLineNone.bmp"
+IDB_BMP_GRIDLINE_VERT   BITMAP  DISCARDABLE     "res\\GridLineVert.bmp"
+IDB_BMP_BORDER_TLB      BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BMP_BORDER_TB       BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_BMP_BORDER_LT       BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_BMP_BORDER_LTR      BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_BMP_BORDER_TR       BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_BMP_BORDER_TBR      BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_BMP_BORDER_LR       BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_BMP_BORDER_LB       BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_BMP_BORDER_RB       BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_BMP_BORDER_LRB      BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_FORMAT_BRUSH
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FILE_PRINT_PREVIEW
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_NORMAL_SUM
+    BUTTON      ID_INSERT_FUNCTION
+    SEPARATOR
+    BUTTON      ID_DATA_SORTAZ
+    BUTTON      ID_DATA_SORTZA
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_EDITBAR TOOLBAR DISCARDABLE  14, 14
+BEGIN
+    BUTTON      ID_EDIT_NAME
+    BUTTON      ID_EDIT_CANCEL
+    BUTTON      ID_EDIT_OK
+    BUTTON      ID_EDIT_EQU
+    BUTTON      ID_EDIT_INPUT
+END
+
+IDR_TOOLBAR_FORMAT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FORMAT_FONTNAME
+    BUTTON      ID_FORMAT_FONTSIZE
+    SEPARATOR
+    BUTTON      ID_FORMAT_BOLD
+    BUTTON      ID_FORMAT_ITALIC
+    BUTTON      ID_FORMAT_UNDERLINE
+    SEPARATOR
+    BUTTON      ID_ALIGN_LEFT
+    BUTTON      ID_ALIGN_CENTER
+    BUTTON      ID_ALIGN_RIGHT
+    SEPARATOR
+    BUTTON      ID_ALIGN_TOP
+    BUTTON      ID_ALIGN_MIDDLE
+    BUTTON      ID_ALIGN_BOTTOM
+    SEPARATOR
+    BUTTON      ID_VALUE_CURENCY
+    BUTTON      ID_VALUE_PERCENT
+    BUTTON      ID_VALUE_THOUSANDS
+    BUTTON      ID_POINT_CREASE
+    BUTTON      ID_POINT_DECREASE
+    SEPARATOR
+    BUTTON      ID_CASH_BORDER
+    BUTTON      ID_CASH_HEADER
+    SEPARATOR
+    BUTTON      ID_FORMAT_BORDER
+    BUTTON      ID_FORMAT_BACKCOLOR
+    BUTTON      ID_FORMAT_FORECOLOR
+END
+
+IDR_TOOLBAR_DESIGNER TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_INSERT_ROW
+    BUTTON      ID_APPEND_ROW
+    BUTTON      ID_DELETE_ROW
+    SEPARATOR
+    BUTTON      ID_INSERT_COL
+    BUTTON      ID_APPEND_COL
+    BUTTON      ID_DELETE_COL
+    SEPARATOR
+    BUTTON      ID_MERGE_CELL
+    BUTTON      ID_UNMERGE_CELL
+    BUTTON      ID_MERGE_ROWS
+    BUTTON      ID_MERGE_COLS
+    SEPARATOR
+    BUTTON      ID_READONLY
+    BUTTON      ID_HYLINK
+    BUTTON      ID_CALC_ALL
+    BUTTON      ID_SUMHORZ
+    BUTTON      ID_SUM_VERT
+    BUTTON      ID_SUM_HV
+    SEPARATOR
+    BUTTON      ID_BORDER_LINE_DOT
+    BUTTON      ID_BORDER_LINE_STYLE
+    BUTTON      ID_GRID_LINE_STYLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近文件",                    ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助主题(&H)",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "关于 LRptDesigner(&A)...",    ID_APP_ABOUT
+    END
+END
+
+IDR_LRPTDETYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                    ID_FILE_CLOSE
+        MENUITEM "保存(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",               ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近文件",                    ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",            ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        POPUP "填充(&F)"
+        BEGIN
+            MENUITEM "向下填充(&D)",                IDM_EDIT_FILL_DOWN
+            MENUITEM "向右填充(&R)",                IDM_EDIT_FILL_RIGHT
+            MENUITEM "向上填充(&U)",                IDM_EDIT_FILL_UP
+            MENUITEM "向左填充(&L)",                IDM_EDIT_FILL_LEFT
+            MENUITEM SEPARATOR
+            MENUITEM "序列(&S)...",                 IDM_EDIT_FILL_SERIAL
+        END
+        POPUP "清除(&A)"
+        BEGIN
+            MENUITEM "全部(&A)",                    IDM_EDIT_CLEAR_ALL
+            MENUITEM "格式(&F)",                    IDM_EDIT_CLEAR_FORMAT
+            MENUITEM "内容(&C)",                    IDM_EDIT_CLEAR_DETAIL
+            MENUITEM "批注(&R)",                    IDM_EDIT_CLEAR_REMARK
+        END
+        MENUITEM "删除(&D)...",                 IDM_EDIT_DELETE
+        MENUITEM "删除工作表(&L)",              IDM_EDIT_DELETE_SHEET
+        MENUITEM SEPARATOR
+        MENUITEM "查找(&F)...",                 IDM_EDIT_FIND
+        MENUITEM "替换(&R)...",                 IDM_EDIT_REPLACE
+        MENUITEM "定位(&G)",                    IDM_EDIT_POSITION
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "单页模式(&S)",                IDM_VIEW_PAGE_MODE
+        MENUITEM "多页模式(&M)",                IDM_VIEW_MPAGE
+        MENUITEM SEPARATOR
+        POPUP "工具栏"
+        BEGIN
+            MENUITEM "常用工具栏",                  IDM_VIEW_TOOLBAR_NORMAL
+            , CHECKED
+            MENUITEM "格式",                        IDM_VIEW_TOOLBAR_FORMAT
+            , CHECKED
+            MENUITEM "设计",                        IDM_VIEW_TOOLBAR_DESIGN
+            , CHECKED
+            MENUITEM "艺术字",                      IDM_VIEW_TOOLBAR_ARTFONT
+            , CHECKED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "批注(&R)...",                 IDM_VIEW_REMARK
+    END
+    POPUP "插入(&I)"
+    BEGIN
+        MENUITEM "行(&R)",                      IDM_INSERT_ROW
+        MENUITEM "列(&C)",                      IDM_INSERT_COL
+        MENUITEM "工作表(&G)",                  IDM_INSERT_GRID
+        MENUITEM "图表(&G)...",                 IDM_INSERT_GRAPHICS
+        MENUITEM SEPARATOR
+        MENUITEM "函数(&F)...",                 IDM_INSERT_FUNCTION
+        POPUP "名称(&N)"
+        BEGIN
+            MENUITEM "定义(&D)...",                 IDM_INSERT_NAME_DEF
+            MENUITEM "粘贴(&P)...",                 IDM_INSERT_PAST
+            MENUITEM "指定(&C)...",                 IDM_INSERT_REF, HELP
+            MENUITEM "应用(&A)...",                 IDM_INSERT_APP
+            MENUITEM "标志(&L)...",                 IDM_INSERT_LABLE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "图片(&P)...",                 IDM_INSERT_PICTURE
+        MENUITEM "批注(&M)...",                 IDM_INSERT_REMARK
+        MENUITEM "超级链接(&L)...",             IDM_INSERT_HYPE
+    END
+    POPUP "格式(&O)"
+    BEGIN
+        MENUITEM "单元格(&P)...",               IDM_FORMAT_CELL
+        POPUP "行(&R)"
+        BEGIN
+            MENUITEM "行高(&H)...",                 IDM_FORMAT_ROW_HEIGHT
+            MENUITEM "最适合行高(&A)",              IDM_FORMAT_ROW_FITHEIGHT
+            MENUITEM "隐藏(&H)",                    IDM_FORMAT_ROW_HIDE
+            MENUITEM "取消隐藏(&H)",                IDM_FORMAT_ROW_UNHIDE
+        END
+        POPUP "列(&C)"
+        BEGIN
+            MENUITEM "列宽(&W)...",                 IDM_FORMAT_COL_WIDTH
+            MENUITEM "最适合列宽(&A)",              IDM_FORMAT_COL_AUTOWIDTH
+            MENUITEM "隐藏(&H)",                    IDM_FORMAT_COL_HIDE
+            MENUITEM "取消隐藏(&U)",                IDM_FORMAT_COL_UNHIDE
+            MENUITEM "标准列宽(&S)",                IDM_FORMAT_COL_STADWIDTH
+        END
+        POPUP "工作表(&H)"
+        BEGIN
+            MENUITEM "重命名(&R)...",               IDM_FORMAT_SHEET_RENAME
+            MENUITEM "隐藏(&H)",                    IDM_FORMAT_SHEET_HIDE
+            MENUITEM "取消隐藏(&U)",                IDM_FORMAT_SHEET_UNHIDE
+            MENUITEM "背景(&B)...",                 IDM_FORMAT_SHEET_BK
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "自动套用格式(&A)...",         IDM_FORMAT_AUTOFORMAT
+        MENUITEM "条件格式(&D)...",             IDM_FORMAT_PRESSFORMAT
+        MENUITEM "样式(&S)...",                 IDM_FORMAT_STYLE
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        POPUP "保护(&P)"
+        BEGIN
+            MENUITEM "保护工作表(&S)...",           IDM_TOOL_PROTECTED_SHEET
+            MENUITEM "保护工作簿(&B)...",           IDM_TOOL_PROTECTED_BOOK
+        END
+    END
+    MENUITEM "数据(&D)",                    65535
+    POPUP "查看(&S)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "新建窗口(&N)",                ID_WINDOW_NEW
+        MENUITEM "层叠(&C)",                    ID_WINDOW_CASCADE
+        MENUITEM "平铺(&T)",                    ID_WINDOW_TILE_HORZ
+        MENUITEM "排列图标(&A)",                ID_WINDOW_ARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "冻结窗格(&F)",                IDM_FREEZE_CELL
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助主题(&H)",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "关于 LRptDesigner(&A)...",    ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 LRptDesigner"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "LRptDesigner 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有(C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "作者: 罗智勇",IDC_STATIC,41,47,119,8
+    LTEXT           "E-Mail: zhiyong.luo@longshine.com",IDC_STATIC,41,65,156,
+                    8
+END
+
+IDD_DLG_SHEET_NAME DIALOG DISCARDABLE  0, 0, 209, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "工作表名称"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,152,7,50,14
+    GROUPBOX        "工作表名称",IDC_STATIC,7,7,141,41
+    EDITTEXT        IDC_EDIT_SHEET_NAME,19,24,116,12,ES_AUTOHSCROLL
+END
+
+IDD_DLG_MEMO DIALOGEX 0, 0, 206, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批注"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,149,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,24,50,14
+    GROUPBOX        "当前批注",IDC_STATIC,7,7,136,81
+    EDITTEXT        IDC_EDIT_MEMO,13,17,124,65,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "LRptDesigner Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "LRptDesigner\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "LRptDesigner.EXE\0"
+            VALUE "ProductName", "LRptDesigner 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_DLG_SHEET_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLG_MEMO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CUR_CROSS           CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CUR_DROPPAN         CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_CURCROSS            CURSOR  DISCARDABLE     "res\\cur00002.cur"
+IDC_CURDOWN             CURSOR  DISCARDABLE     "res\\cur00003.cur"
+IDC_CURRIGHT            CURSOR  DISCARDABLE     "res\\cur00004.cur"
+IDC_CURSIZE_EW          CURSOR  DISCARDABLE     "res\\cur00005.cur"
+IDC_CURSIZE_NS          CURSOR  DISCARDABLE     "res\\cur00006.cur"
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "LRptDesigner"
+    IDR_LRPTDETYPE          "\nLRptDe\nLRptDe\n\n\nLRptDesigner.Document\nLRptDe Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "LRptDesigner"
+    AFX_IDS_IDLEMESSAGE     "如需帮助，请按F1键"
+    AFX_IDS_HELPMODEMESSAGE "选定一个要得到帮助的对象"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+    ID_HELP_INDEX           "打开帮助\n帮助主题"
+    ID_HELP_FINDER          "列出帮助主题\n帮助主题"
+    ID_HELP_USING           "显示关于如何使用帮助的指令\n帮助"
+    ID_CONTEXT_HELP         "显示对按钮、菜单和窗口执行单击操作的帮助\n帮助"
+    ID_HELP                 "显示对当前任务或命令的帮助\n帮助"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "将图标排列在窗口底部\n排列图标"
+    ID_WINDOW_CASCADE       "排列窗口成相互重叠\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+    AFX_IDS_MDICHILD        "激活该窗口"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APPEND_ROW           "追加行"
+    ID_DELETE_ROW           "删除行"
+    ID_INSERT_COL           "插入列"
+    ID_APPEND_COL           "追加列"
+    ID_DELETE_COL           "删除列"
+    ID_MERGE_CELL           "合并当前范围单元格"
+    ID_UNMERGE_CELL         "取消当前合并的单元格"
+    ID_MERGE_ROWS           "按列合并单元格"
+    ID_MERGE_COLS           "按行合并单元格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INSERT_ROW           "插入行"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\LRptDesigner.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

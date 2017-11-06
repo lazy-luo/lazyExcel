@@ -1,0 +1,34 @@
+HKCR
+{
+	GridBook.ReportGrid.1 = s 'ReportGrid Class'
+	{
+		CLSID = s '{A7E2631B-1E33-412D-B4DE-F515D709AE90}'
+	}
+	GridBook.ReportGrid = s 'ReportGrid Class'
+	{
+		CLSID = s '{A7E2631B-1E33-412D-B4DE-F515D709AE90}'
+		CurVer = s 'GridBook.ReportGrid.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A7E2631B-1E33-412D-B4DE-F515D709AE90} = s 'ReportGrid Class'
+		{
+			ProgID = s 'GridBook.ReportGrid.1'
+			VersionIndependentProgID = s 'GridBook.ReportGrid'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			ForceRemove 'Insertable'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 101'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '131473'
+			}
+			'TypeLib' = s '{0C70E593-CABF-4984-B4E2-EA696A8BECE0}'
+			'Version' = s '1.0'
+		}
+	}
+}

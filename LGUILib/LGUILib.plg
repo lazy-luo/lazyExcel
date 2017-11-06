@@ -1,0 +1,154 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LGridLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1317.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGRIDLIB_EXPORTS" /FR"../Bin/Build/LGridLib/Release/" /Fp"../Bin/Build/LGridLib/Release/LGridLib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LGridLib/Release/" /Fd"../Bin/Build/LGridLib/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGridLib\Src\LGrid.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGridLib\LGridLib.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGridLib\Base\LMerge.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1317.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1318.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGRIDLIB_EXPORTS" /FR"../Bin/Build/LGridLib/Release/" /Fp"../Bin/Build/LGridLib/Release/LGridLib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LGridLib/Release/" /Fd"../Bin/Build/LGridLib/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGridLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1318.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1319.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LGridLib/Release/LGridLib.pdb" /machine:I386 /out:"../Bin/LGridLib.dll" /implib:"../Bin/Build/LGridLib/Release/LGridLib.lib" 
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGridLib\Release\LGrid.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGridLib\Release\LGridLib.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGridLib\Release\LMerge.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGridLib\Release\StdAfx.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGridLib\Release\TableRes.res
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LTableLib\Release\LTableLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1319.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+LGrid.cpp
+LGridLib.cpp
+LMerge.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LGridLib/Release/LGridLib.lib and object ../Bin/Build/LGridLib/Release/LGridLib.exp
+<h3>
+--------------------Configuration: LSheetLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP131D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LSHEETLIB_EXPORTS" /FR"../Bin/Build/LSheetLib/Release/" /Fp"../Bin/Build/LSheetLib/Release/LSheetLib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LSheetLib/Release/" /Fd"../Bin/Build/LSheetLib/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LSheetLib\Src\LSheet.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LSheetLib\LSheetLib.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP131D.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP131E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LSHEETLIB_EXPORTS" /FR"../Bin/Build/LSheetLib/Release/" /Fp"../Bin/Build/LSheetLib/Release/LSheetLib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LSheetLib/Release/" /Fd"../Bin/Build/LSheetLib/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LSheetLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP131E.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP131F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LSheetLib/Release/LSheetLib.pdb" /machine:I386 /out:"../Bin/LSheetLib.dll" /implib:"../Bin/Build/LSheetLib/Release/LSheetLib.lib" 
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\LSheet.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\LSheetLib.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\StdAfx.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\TableRes.res
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGridLib\Release\LGridLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP131F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+LSheet.cpp
+LSheetLib.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LSheetLib/Release/LSheetLib.lib and object ../Bin/Build/LSheetLib/Release/LSheetLib.exp
+LINK : warning LNK4089: all references to "KERNEL32.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1323.tmp" with contents
+[
+/nologo /o"../Bin/Build/LSheetLib/Release/LSheetLib.bsc" 
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\StdAfx.sbr
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\LSheet.sbr
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\LSheetLib.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1323.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: LGUILib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1324.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGUILIB_EXPORTS" /FR"../Bin/Build/LGUILib/Release/" /Fp"../Bin/Build/LGUILib/Release/LGUILib.pch" /Yu"stdafx.h" /Fo"../Bin/Build/LGUILib/Release/" /Fd"../Bin/Build/LGUILib/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Src\LArtFontPan.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Src\LBitmapPan.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Src\LChartPan.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Src\LDrawerSheet.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Base\LDrawItem.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\LGUILib.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Src\LScrollBar.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\Src\LToolTip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1324.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1325.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LGUILIB_EXPORTS" /FR"../Bin/Build/LGUILib/Release/" /Fp"../Bin/Build/LGUILib/Release/LGUILib.pch" /Yc"stdafx.h" /Fo"../Bin/Build/LGUILib/Release/" /Fd"../Bin/Build/LGUILib/Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LGUILib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1325.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1326.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Bin/Build/LGUILib/Release/LGUILib.pdb" /machine:I386 /out:"../Bin/LGUILib.dll" /implib:"../Bin/Build/LGUILib/Release/LGUILib.lib" 
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LArtFontPan.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LBitmapPan.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LChartPan.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LDrawerSheet.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LDrawItem.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LGUILib.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LScrollBar.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\LToolTip.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\StdAfx.obj
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LGUILib\Release\TableRes.res
+\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\Bin\Build\LSheetLib\Release\LSheetLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP1326.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+LArtFontPan.cpp
+LBitmapPan.cpp
+LChartPan.cpp
+LDrawerSheet.cpp
+LDrawItem.cpp
+LGUILib.cpp
+LScrollBar.cpp
+LToolTip.cpp
+Generating Code...
+Linking...
+   Creating library ../Bin/Build/LGUILib/Release/LGUILib.lib and object ../Bin/Build/LGUILib/Release/LGUILib.exp
+LINK : warning LNK4089: all references to "KERNEL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "MSVCP60.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+LGUILib.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

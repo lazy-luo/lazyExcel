@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LRptDesigner - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../../../Bin/Build/LRptDesigner/COM/Release/LRptDesigner.res" /d "NDEBUG" "D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\LRptDesigner.rc"" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP51.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../../../Bin/Build/LRptDesigner/COM/Release/" /Fp"../../../Bin/Build/LRptDesigner/COM/Release/LRptDesigner.pch" /Yu"stdafx.h" /Fo"../../../Bin/Build/LRptDesigner/COM/Release/" /Fd"../../../Bin/Build/LRptDesigner/COM/Release/" /FD /c 
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\ChildFrm.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\clgridbook.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\DesignerTollBar.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\EditToolBar.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\FontComboBox.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\FormatToolBar.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LColorPan.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LColorPicker.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\LFlatComboBox.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LImagePan.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LImagePicker.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LPopupPan.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LReg.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\LRptDesigner.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\LRptDesignerDoc.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\LRptDesignerView.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\MainFrm.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\SizeComboBox.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\ToolBarComboBox.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP51.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../../../Bin/Build/LRptDesigner/COM/Release/" /Fp"../../../Bin/Build/LRptDesigner/COM/Release/LRptDesigner.pch" /Yu"stdafx.h" /Fo"../../../Bin/Build/LRptDesigner/COM/Release/" /Fd"../../../Bin/Build/LRptDesigner/COM/Release/" /FD /c 
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Ctrl\LFlatEdit.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LPickerBtn.cpp"
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\Comm\LToolTip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP52.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../../../Bin/Build/LRptDesigner/COM/Release/" /Fp"../../../Bin/Build/LRptDesigner/COM/Release/LRptDesigner.pch" /Yc"stdafx.h" /Fo"../../../Bin/Build/LRptDesigner/COM/Release/" /Fd"../../../Bin/Build/LRptDesigner/COM/Release/" /FD /c 
+"D:\my_src\c++\LGridBook\Export\Com\LRptDesigner\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP53.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"../../../Bin/Build/LRptDesigner/COM/Release/LRptDesigner_Com.pdb" /machine:I386 /out:"../../../Bin/LRptDesigner_Com.exe" 
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\ChildFrm.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\clgridbook.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\DesignerTollBar.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\EditToolBar.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\FontComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\FormatToolBar.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LColorPan.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LColorPicker.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LFlatComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LFlatEdit.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LImagePan.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LImagePicker.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LPickerBtn.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LPopupPan.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LReg.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesigner.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesignerDoc.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesignerView.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LToolTip.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\MainFrm.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\SizeComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\StdAfx.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\ToolBarComboBox.obj"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesigner.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP54.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+clgridbook.cpp
+DesignerTollBar.cpp
+EditToolBar.cpp
+FontComboBox.cpp
+FormatToolBar.cpp
+LColorPan.cpp
+LColorPicker.cpp
+LFlatComboBox.cpp
+LImagePan.cpp
+LImagePicker.cpp
+LPopupPan.cpp
+LReg.cpp
+LRptDesigner.cpp
+LRptDesignerDoc.cpp
+LRptDesignerView.cpp
+MainFrm.cpp
+SizeComboBox.cpp
+ToolBarComboBox.cpp
+Generating Code...
+Compiling...
+LFlatEdit.cpp
+LPickerBtn.cpp
+LToolTip.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /o"../../../Bin/Build/LRptDesigner/COM/Release/LRptDesigner.bsc" 
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\StdAfx.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\ChildFrm.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\clgridbook.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\DesignerTollBar.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\EditToolBar.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\FontComboBox.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\FormatToolBar.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LColorPan.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LColorPicker.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LFlatComboBox.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LFlatEdit.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LImagePan.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LImagePicker.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LPickerBtn.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LPopupPan.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LReg.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesigner.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesignerDoc.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LRptDesignerView.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\LToolTip.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\MainFrm.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\SizeComboBox.sbr"
+"\my_src\c++\LGridBook\Bin\Build\LRptDesigner\COM\Release\ToolBarComboBox.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP56.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LRptDesigner_Com.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

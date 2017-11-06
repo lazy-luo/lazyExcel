@@ -1,0 +1,95 @@
+// GridBook.idl : IDL source for GridBook.ocx
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (GridBook.tlb) and marshalling code.
+typedef enum{
+	NO_LINE=0,
+	LEFT_LINE=0x1,
+	RIGHT_LINE=0x2,
+	TOP_LINE=0x4,
+	BOTTOM_LINE=0x8,
+	FULL_LINE=0xF
+}_tag_BorderLine;
+
+import "oaidl.idl";
+import "ocidl.idl";
+#include "olectl.h"
+
+	[
+		object,
+		uuid(71BF6F4E-0502-47E0-80B2-3F9F8CC6B9B2),
+		dual,
+		helpstring("IReportGrid Interface"),
+		pointer_default(unique)
+	]
+	interface IReportGrid : IDispatch
+	{
+		[propget, id(1), helpstring("property hWnd")] HRESULT hWnd([out, retval] LONG *pVal);
+		[id(2), helpstring("method AddBitmapPan")] HRESULT AddBitmapPan(LONG sheet,BSTR ptrName,[out, retval]BOOL *bret);
+		[id(3), helpstring("method AddSheet")] HRESULT AddSheet(BSTR ptrName,LONG index,[out, retval]LONG* pVal);
+		[id(4), helpstring("method AppendACol")] HRESULT AppendACol(LONG sheet);
+		[id(5), helpstring("method AppendARow")] HRESULT AppendARow(LONG sheet);
+		[id(6), helpstring("method ClearCellData")] HRESULT ClearCellData(LONG sheet,LONG nRow,LONG nCol);
+		[id(7), helpstring("method ClearCurrentRangeData")] HRESULT ClearCurrentRangeData(LONG sheet);
+		[id(8), helpstring("method CopyData")] HRESULT CopyData(LONG sheet);
+		[id(9), helpstring("method CutCurrentData")] HRESULT CutCurrentData(LONG sheet);
+		[id(10), helpstring("method DeleteCurrentCol")] HRESULT DeleteCurrentCol(LONG sheet);
+		[id(11), helpstring("method DeleteCurrentRow")] HRESULT DeleteCurrentRow(LONG sheet);
+		[id(12), helpstring("method DeleteSheet")] HRESULT DeleteSheet(LONG index);
+		[propget, id(13), helpstring("property Cols")] HRESULT Cols(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(13), helpstring("property Cols")] HRESULT Cols(LONG sheet, [in] LONG newVal);
+		[propget, id(14), helpstring("property Rows")] HRESULT Rows(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(14), helpstring("property Rows")] HRESULT Rows(LONG sheet, [in] LONG newVal);
+		[propget, id(15), helpstring("property ColWidth")] HRESULT ColWidth(LONG sheet,LONG col, [out, retval] LONG *pVal);
+		[propput, id(15), helpstring("property ColWidth")] HRESULT ColWidth(LONG sheet,LONG col, [in] LONG newVal);
+		[propget, id(16), helpstring("property CurrentSheetIndex")] HRESULT CurrentSheetIndex([out, retval] LONG *pVal);
+		[propput, id(16), helpstring("property CurrentSheetIndex")] HRESULT CurrentSheetIndex([in] LONG newVal);
+		[propget, id(17), helpstring("property FixedCols")] HRESULT FixedCols(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(17), helpstring("property FixedCols")] HRESULT FixedCols(LONG sheet, [in] LONG newVal);
+		[propget, id(18), helpstring("property FixedRows")] HRESULT FixedRows(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(18), helpstring("property FixedRows")] HRESULT FixedRows(LONG sheet, [in] LONG newVal);
+		[propget, id(19), helpstring("property FreezeCols")] HRESULT FreezeCols(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(19), helpstring("property FreezeCols")] HRESULT FreezeCols(LONG sheet, [in] LONG newVal);
+		[propget, id(20), helpstring("property FreezeRows")] HRESULT FreezeRows(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(20), helpstring("property FreezeRows")] HRESULT FreezeRows(LONG sheet, [in] LONG newVal);
+		[propget, id(21), helpstring("property TextMatrix")] HRESULT TextMatrix(LONG sheet,LONG row,LONG col, [out, retval] BSTR *pVal);
+		[propput, id(21), helpstring("property TextMatrix")] HRESULT TextMatrix(LONG sheet,LONG row,LONG col, [in] BSTR newVal);
+		[propget, id(22), helpstring("property BorderLineStyle")] HRESULT BorderLineStyle(LONG sheet,LONG irow,LONG icol, [out, retval] _tag_BorderLine *pVal);
+		[propput, id(22), helpstring("property BorderLineStyle")] HRESULT BorderLineStyle(LONG sheet,LONG irow,LONG icol, [in] _tag_BorderLine newVal);
+		[propget, id(23), helpstring("property CurrentCellBkColor")] HRESULT CurrentCellBkColor(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(24), helpstring("property CurrentCellBorderColor")] HRESULT CurrentCellBorderColor(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(25), helpstring("property CurrentCellForeColor")] HRESULT CurrentCellForeColor(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(26), helpstring("property GetFontName")] HRESULT GetFontName(LONG sheet,LONG nRow,LONG nCol, [out, retval] BSTR *pVal);
+	};
+
+[
+	uuid(0C70E593-CABF-4984-B4E2-EA696A8BECE0),
+	version(1.0),
+	helpstring("GridBook 1.0 Type Library")
+]
+library GRIDBOOKLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(11BC8ADD-4696-4E09-A5F3-A42EC70D6C7E),
+		helpstring("_IReportGridEvents Interface")
+	]
+	dispinterface _IReportGridEvents
+	{
+		properties:
+		methods:
+	};
+
+	[
+		uuid(A7E2631B-1E33-412D-B4DE-F515D709AE90),
+		helpstring("ReportGrid Class")
+	]
+	coclass ReportGrid
+	{
+		[default] interface IReportGrid;
+		[default, source] dispinterface _IReportGridEvents;
+	};
+};

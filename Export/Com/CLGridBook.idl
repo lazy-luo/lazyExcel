@@ -1,0 +1,143 @@
+// CLGridBook.idl : IDL source for CLGridBook.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (CLGridBook.tlb) and marshalling code.
+typedef enum{
+	NO_LINE=0,
+	LEFT_LINE=0x1,
+	RIGHT_LINE=0x2,
+	TOP_LINE=0x4,
+	BOTTOM_LINE=0x8,
+	FULL_LINE=0xF
+}_tag_BorderLine;
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(16C06F17-CBA6-4C46-B8E9-9075D4CEF0EC),
+		dual,
+		helpstring("ICLBookLib Interface"),
+		pointer_default(unique)
+	]
+	interface ICLBookLib : IDispatch
+	{
+		[id(1), helpstring("method AttachWidow")] HRESULT AttachWidow([in] LONG hWnd,[out,retval]LONG* pret);
+		[id(2), helpstring("method DeattachWindow")] HRESULT DeattachWindow();
+		[id(3), helpstring("method AddSheet")] HRESULT AddSheet(BSTR ptrName,LONG index, [out, retval] LONG *pVal);
+		[id(4), helpstring("method GetCurrentSheet")] HRESULT GetCurrentSheet([out,retval] LONG* sheet);
+		[propget, id(5), helpstring("property Rows")] HRESULT Rows(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(5), helpstring("property Rows")] HRESULT Rows(LONG sheet, [in] LONG newVal);
+		[propget, id(6), helpstring("property Cols")] HRESULT Cols(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(6), helpstring("property Cols")] HRESULT Cols(LONG sheet, [in] LONG newVal);
+		[propget, id(7), helpstring("property FixedRows")] HRESULT FixedRows(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(7), helpstring("property FixedRows")] HRESULT FixedRows(LONG sheet, [in] LONG newVal);
+		[propget, id(8), helpstring("property FreezeRows")] HRESULT FreezeRows(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(8), helpstring("property FreezeRows")] HRESULT FreezeRows(LONG sheet, [in] LONG newVal);
+		[propget, id(9), helpstring("property FixedCols")] HRESULT FixedCols(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(9), helpstring("property FixedCols")] HRESULT FixedCols(LONG sheet, [in] LONG newVal);
+		[propget, id(10), helpstring("property FreezeCols")] HRESULT FreezeCols(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(10), helpstring("property FreezeCols")] HRESULT FreezeCols(LONG sheet, [in] LONG newVal);
+		[id(11), helpstring("method PrintMe")] HRESULT PrintMe(BOOL bPrintAll);
+		[propget, id(12), helpstring("property TextMatrix")] HRESULT TextMatrix(LONG sheet,LONG row,LONG col, [out, retval] BSTR *pVal);
+		[propput, id(12), helpstring("property TextMatrix")] HRESULT TextMatrix(LONG sheet,LONG row,LONG col, [in] BSTR newVal);
+		[propget, id(13), helpstring("property RowHeight")] HRESULT RowHeight(LONG sheet,LONG row, [out, retval] LONG *pVal);
+		[propput, id(13), helpstring("property RowHeight")] HRESULT RowHeight(LONG sheet,LONG row, [in] LONG newVal);
+		[propget, id(14), helpstring("property ColWidth")] HRESULT ColWidth(LONG sheet,LONG col, [out, retval] LONG *pVal);
+		[propput, id(14), helpstring("property ColWidth")] HRESULT ColWidth(LONG sheet,LONG col, [in] LONG newVal);
+		[propget, id(15), helpstring("property BorderLineStyle")] HRESULT BorderLineStyle(LONG sheet,LONG irow,LONG icol, [out, retval] _tag_BorderLine *pVal);
+		[propput, id(15), helpstring("property BorderLineStyle")] HRESULT BorderLineStyle(LONG sheet,LONG irow,LONG icol, [in] _tag_BorderLine newVal);
+		[id(16), helpstring("method AppendACol")] HRESULT AppendACol(LONG sheet);
+		[id(17), helpstring("method AppendARow")] HRESULT AppendARow(LONG sheet);
+		[id(18), helpstring("method ClearCellData")] HRESULT ClearCellData(LONG sheet,LONG nRow, LONG nCol);
+		[id(19), helpstring("method ClearCurrentRangeData")] HRESULT ClearCurrentRangeData(LONG sheet);
+		[id(20), helpstring("method CopyData")] HRESULT CopyData(LONG sheet);
+		[id(21), helpstring("method PasteData")] HRESULT PasteData(LONG sheet);
+		[id(22), helpstring("method DeleteCurrentCol")] HRESULT DeleteCurrentCol(LONG sheet);
+		[id(23), helpstring("method SetCurrentRangeBkColor")] HRESULT SetCurrentRangeBkColor(LONG sheet,LONG clr);
+		[id(24), helpstring("method SetCurrentRangeForeColor")] HRESULT SetCurrentRangeForeColor(LONG sheet,LONG clr);
+		[id(25), helpstring("method SetCurrentRangeBorderLineStyle")] HRESULT SetCurrentRangeBorderLineStyle(LONG sheet,LONG nStyle);
+		[propget, id(27), helpstring("property IsCellReadOnly")] HRESULT IsCellReadOnly(LONG sheet,LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propput, id(27), helpstring("property IsCellReadOnly")] HRESULT IsCellReadOnly(LONG sheet,LONG nRow, LONG nCol, [in] BOOL newVal);
+		[id(28), helpstring("method SetCurrentRangeReadOnly")] HRESULT SetCurrentRangeReadOnly(LONG sheet,BOOL bVal);
+		[id(29), helpstring("method SaveData")] HRESULT SaveData(BSTR strFile,[out,retval]BOOL* pret);
+		[id(30), helpstring("method LoadData")] HRESULT LoadData(BSTR strFile,[out,retval] BOOL* pret);
+		[id(31), helpstring("method SetCurrentRangeFontBold")] HRESULT SetCurrentRangeFontBold(LONG sheet);
+		[id(32), helpstring("method SetCurrentRangeFontItalic")] HRESULT SetCurrentRangeFontItalic(LONG sheet);
+		[id(33), helpstring("method SetCurrentRangeFontUnderline")] HRESULT SetCurrentRangeFontUnderline(LONG sheet);
+		[id(34), helpstring("method SetCurrentRangeFontHorzAlign")] HRESULT SetCurrentRangeFontHorzAlign(LONG sheet, LONG nAlign);
+		[propget, id(35), helpstring("property IsFontUnderline")] HRESULT IsFontUnderline(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(36), helpstring("property IsAlignLeft")] HRESULT IsAlignLeft(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(37), helpstring("property IsAlignRight")] HRESULT IsAlignRight(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(38), helpstring("property IsFontBold")] HRESULT IsFontBold(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(39), helpstring("property IsFontItalic")] HRESULT IsFontItalic(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(40), helpstring("property FocusRow")] HRESULT FocusRow(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(41), helpstring("property FocusCol")] HRESULT FocusCol(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(42), helpstring("property IsAlignTop")] HRESULT IsAlignTop(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(43), helpstring("property IsAlignMiddle")] HRESULT IsAlignMiddle(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[propget, id(44), helpstring("property IsAlignBottom")] HRESULT IsAlignBottom(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[id(45), helpstring("method SetCurrentRangeFontVertAlign")] HRESULT SetCurrentRangeFontVertAlign(LONG sheet, LONG nAlign);
+		[id(46), helpstring("method SetCurrentRangeBorderColor")] HRESULT SetCurrentRangeBorderColor(LONG sheet, LONG clr);
+		[id(47), helpstring("method SetCurrentRangeFontName")] HRESULT SetCurrentRangeFontName(LONG sheet, BSTR ptrName, LONG bytChatSet);
+		[id(48), helpstring("method SetCurrentRangeFontSize")] HRESULT SetCurrentRangeFontSize(LONG sheet, LONG nSize);
+		[propget, id(49), helpstring("property GetFontName")] HRESULT GetFontName(LONG sheet,LONG nRow,LONG nCol, [out, retval] BSTR *pVal);
+		[propget, id(50), helpstring("property GetFontSize")] HRESULT GetFontSize(LONG sheet,LONG nRow,LONG nCol, [out, retval] LONG *pVal);
+		[propget, id(51), helpstring("property IsAlignCenter")] HRESULT IsAlignCenter(LONG sheet, LONG nRow, LONG nCol, [out, retval] BOOL *pVal);
+		[id(52), helpstring("method MergeCells")] HRESULT MergeCells(LONG sheet,LONG nBeginRow, LONG nBeginCol, LONG nEndRow, LONG nEndCol, BOOL *retVal);
+		[id(53), helpstring("method MergeCurrentRange")] HRESULT MergeCurrentRange(LONG sheet,[out,retval]BOOL *bret);
+		[id(54), helpstring("method UnMergeCurrentRange")] HRESULT UnMergeCurrentRange(LONG sheet,[out,retval]BOOL *bret);
+		[propget, id(55), helpstring("property GridLineStyle")] HRESULT GridLineStyle(LONG sheet, [out, retval] LONG *pVal);
+		[propput, id(55), helpstring("property GridLineStyle")] HRESULT GridLineStyle(LONG sheet, [in] LONG newVal);
+		[id(56), helpstring("method AddBitmapPan")] HRESULT AddBitmapPan(LONG sheet,BSTR ptrName,[out,retval] BOOL* bret);
+		[id(57), helpstring("method DeleteCurrentRow")] HRESULT DeleteCurrentRow(LONG sheet);
+		[id(58), helpstring("method CutCurrentData")] HRESULT CutCurrentData(LONG sheet);
+		[id(59), helpstring("method InsertARow")] HRESULT InsertARow(LONG sheet);
+		[id(60), helpstring("method InsertACol")] HRESULT InsertACol(LONG sheet);
+		[propget, id(61), helpstring("property CurrentCellBkColor")] HRESULT CurrentCellBkColor(LONG sheet,[out, retval] LONG *pVal);
+		[propget, id(62), helpstring("property CurrentCellBorderColor")] HRESULT CurrentCellBorderColor(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(63), helpstring("property CurrentCellForeColor")] HRESULT CurrentCellForeColor(LONG sheet, [out, retval] LONG *pVal);
+		[propget, id(64), helpstring("property MemoText")] HRESULT MemoText(LONG sheet,LONG nRow,LONG nCol, [out, retval] BSTR *pVal);
+		[propput, id(64), helpstring("property MemoText")] HRESULT MemoText(LONG sheet,LONG nRow,LONG nCol, [in] BSTR newVal);
+		[propget, id(65), helpstring("property CurrentSheetIndex")] HRESULT CurrentSheetIndex([out, retval] long *pVal);
+		[propput, id(65), helpstring("property CurrentSheetIndex")] HRESULT CurrentSheetIndex([in] long newVal);
+		[propget, id(66), helpstring("property SheetCount")] HRESULT SheetCount([out, retval] long *pVal);
+		[propget, id(67), helpstring("property SheetCaption")] HRESULT SheetCaption(LONG index, [out, retval] BSTR *pVal);
+		[propput, id(67), helpstring("property SheetCaption")] HRESULT SheetCaption(LONG index, [in] BSTR newVal);
+		[id(68), helpstring("method SetBorderLineDot")] HRESULT SetBorderLineDot(LONG sheet,LONG style);
+		[id(69), helpstring("method GetBorderLineDot")] HRESULT GetBorderLineDot(LONG sheet,LONG row,LONG col,[out,retval]LONG* pret);
+		[id(70), helpstring("method SetCashStyle")] HRESULT SetCashStyle(LONG sheet,LONG style);
+		[id(71), helpstring("method GetCashStyle")] HRESULT GetCashStyle(LONG sheet,LONG row,LONG col,[out,retval]LONG* pret);
+		[id(72), helpstring("method DeleteSheet")] HRESULT DeleteSheet(LONG index);
+	};
+		
+
+[
+	uuid(7B9ED975-60B3-42E4-9A73-5EC9D560DC71),
+	version(1.0),
+	helpstring("CLGridBook 1.0 Type Library")
+]
+library CLGRIDBOOKLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(6066F594-F213-4363-91CC-18F3B4465CE6),
+		helpstring("_ICLBookLibEvents Interface")
+	]
+	dispinterface _ICLBookLibEvents
+	{
+		properties:
+		methods:
+	};
+
+	[
+		uuid(D3D6527B-CD33-4482-9B7A-21C8FF6929A7),
+		helpstring("CLBookLib Class")
+	]
+	coclass CLBookLib
+	{
+		[default] interface ICLBookLib;
+		[default, source] dispinterface _ICLBookLibEvents;
+	};
+};

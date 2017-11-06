@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VCtest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP6BC.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/VCtest.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\ClientA.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\LModifyEngine.cpp"
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\VCtest.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP6BC.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP6BD.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/VCtest.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP6BD.tmp" 
+Creating temporary file "C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP6BE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib LTablelib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/VCtest.pdb" /machine:I386 /out:"../VCtest.exe" 
+.\Release\ClientA.obj
+.\Release\LModifyEngine.obj
+.\Release\StdAfx.obj
+.\Release\VCtest.obj
+.\Release\VCtest.res
+]
+Creating command line "link.exe @C:\DOCUME~1\zhiyong.luo\LOCALS~1\Temp\RSP6BE.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientA.cpp
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\ClientA.h(13) : error C2504: 'ILCallBack' : base class undefined
+LModifyEngine.cpp
+VCtest.cpp
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\ClientA.h(13) : error C2504: 'ILCallBack' : base class undefined
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\VCtest.cpp(110) : error C2664: 'AddLinstener' : cannot convert parameter 1 from 'class CClientA *' to 'struct ICallBack *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\VCtest.cpp(111) : error C2664: 'AddLinstener' : cannot convert parameter 1 from 'class CClientA *' to 'struct ICallBack *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\VCtest.cpp(112) : error C2664: 'AddLinstener' : cannot convert parameter 1 from 'class CClientA *' to 'struct ICallBack *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\L_SRC\VCProg\MyVCProc\LPowerReport\LGridBook\LTableLib\Bin\VCtest\VCtest.cpp(113) : error C2664: 'AddLinstener' : cannot convert parameter 1 from 'class CClientA *' to 'struct ICallBack *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Generating Code...
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Release/VCtest.bsc"  .\Release\StdAfx.sbr .\Release\ClientA.sbr .\Release\LModifyEngine.sbr .\Release\VCtest.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VCtest.exe - 6 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
